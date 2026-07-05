@@ -1,6 +1,8 @@
 __pycache__/
 *.xlsx
 *.xlsx.tmp
+build/
+dist/
 .idea/
 .vscode/
 .gemini/
