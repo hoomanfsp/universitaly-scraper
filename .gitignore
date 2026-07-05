@@ -1,0 +1,6 @@
+__pycache__/
+*.xlsx
+*.xlsx.tmp
+.idea/
+.vscode/
+.gemini/
