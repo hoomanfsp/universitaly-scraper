@@ -77,12 +77,14 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: UniversitalyScraper-Windows.exe
+          merge-multiple: true
           path: ./
 
       - name: Download Linux Binary
         uses: actions/download-artifact@v4
         with:
           name: UniversitalyScraper-Linux
+          merge-multiple: true
           path: ./
 
       - name: Create Release and Upload Assets
